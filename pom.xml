@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+pragmatickm-all - Convenience POM to include most PragmaticKM features, not including documentation or examples.
+Copyright (C) 2016  AO Industries, Inc.
+    support@aoindustries.com
+    7262 Bull Pen Cir
+    Mobile, AL 36695
+
+This file is part of pragmatickm-all.
+
+pragmatickm-all is non-exclusive, non-transferable, non-redistributable.
+
+pragmatickm-all is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<prerequisites>
+		<!-- 3.3.1 required for extensions.xml -->
+		<maven>3.3.1</maven>
+	</prerequisites>
+
+	<parent>
+		<groupId>com.pragmatickm</groupId>
+		<artifactId>pragmatickm</artifactId>
+		<version>1.4-SNAPSHOT</version>
+	</parent>
+
+	<groupId>com.pragmatickm</groupId>
+	<artifactId>pragmatickm-all</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>PragmaticKM All</name>
+	<url>https://pragmatickm.com/docs/pragmatickm-all/</url>
+	<description>Convenience POM to include most PragmaticKM features, not including documentation or examples.</description>
+
+	<scm>
+		<!--
+		<connection>scm:git:git://github.com/aoindustries/pragmatickm-all.git</connection>
+		-->
+		<developerConnection>scm:git:ssh://private.cvs.aoindustries.com/var/git/pragmatickm-all</developerConnection>
+		<!--
+		<url>http://github.com/aoindustries/pragmatickm-all</url>
+		-->
+		<tag>HEAD</tag>
+	</scm>
+
+	<repositories>
+		<repository>
+			<id>pragmatickm-repository</id>
+			<url>scpexe://private.cvs.aoindustries.com/var/maven2/pragmatickm</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.pragmatickm</groupId>
+			<artifactId>pragmatickm-contact-all</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>com.pragmatickm</groupId>
+			<artifactId>pragmatickm-password-all</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>com.pragmatickm</groupId>
+			<artifactId>pragmatickm-procedure-all</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<type>pom</type>
+		</dependency>
+		<dependency>
+			<groupId>com.pragmatickm</groupId>
+			<artifactId>pragmatickm-task-all</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<type>pom</type>
+		</dependency>
+	</dependencies>
+</project>
