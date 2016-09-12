@@ -25,7 +25,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 	<parent>
 		<groupId>com.pragmatickm</groupId>
 		<artifactId>pragmatickm</artifactId>
-		<version>1.5</version>
+		<version>1.6-SNAPSHOT</version>
 	</parent>
 
 	<groupId>com.pragmatickm</groupId>
@@ -34,7 +34,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 	<packaging>pom</packaging>
 
 	<name>PragmaticKM All</name>
-	<url>https://pragmatickm.com/docs/pragmatickm-all/</url>
+	<url>https://pragmatickm.com/all/</url>
 	<description>Convenience POM to include most PragmaticKM features, not including documentation or examples.</description>
 
 	<scm>
@@ -59,25 +59,25 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 		<dependency>
 			<groupId>com.pragmatickm</groupId>
 			<artifactId>pragmatickm-contact-all</artifactId>
-			<version>1.1</version>
+			<version>1.2-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.pragmatickm</groupId>
 			<artifactId>pragmatickm-password-all</artifactId>
-			<version>1.1</version>
+			<version>1.2-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.pragmatickm</groupId>
 			<artifactId>pragmatickm-procedure-all</artifactId>
-			<version>1.1</version>
+			<version>1.2-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.pragmatickm</groupId>
 			<artifactId>pragmatickm-task-all</artifactId>
-			<version>1.1</version>
+			<version>1.2-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>
 	</dependencies>
