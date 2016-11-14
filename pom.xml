@@ -24,18 +24,15 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 	<parent>
 		<groupId>com.pragmatickm</groupId>
-		<artifactId>pragmatickm</artifactId>
-		<version>1.6.3-SNAPSHOT</version>
+		<artifactId>pragmatickm-parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
 	<groupId>com.pragmatickm</groupId>
 	<artifactId>pragmatickm-all</artifactId>
 	<version>1.2.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
-
-	<properties>
-		<shortTitle>All</shortTitle>
-	</properties>
 
 	<name>PragmaticKM All</name>
 	<url>https://pragmatickm.com/all/</url>
