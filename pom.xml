@@ -84,7 +84,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 		<dependency>
 			<groupId>com.pragmatickm</groupId>
 			<artifactId>pragmatickm-task-all</artifactId>
-			<version>1.2.2</version>
+			<version>1.2.3-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>
 	</dependencies>
