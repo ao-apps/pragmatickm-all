@@ -37,7 +37,7 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2017-07-25T09:13:13-0500"
-		dateModified="2017-07-26T10:53:30-0500"
+		dateModified="2017-07-26T14:11:50-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.pragmatickm:pragmatickm-all:pom.version}" />
@@ -86,7 +86,7 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 		>
 			<ul>
 				<li>New <ao:a href="https://aoindustries.com/ao-oss-parent/">AO OSS Parent</ao:a> POM to simplify <code>pom.xml</code> files.</li>
-				<li>Project documentation moved to per-project book in <core:link book="/" page="/index.jspx" /> format.</li>
+				<li>Project documentation moved to per-project book in <ao:a href="https://semanticcms.com/">SemanticCMS</ao:a> format.</li>
 				<li>Added changelog as top-level project link.</li>
 			</ul>
 		</changelog:release>
