@@ -54,10 +54,10 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 				scmUrl="@{documented.scm.url}"
 			>
 				<ul>
-					<li>Updated version of <core:link book="/contact/all" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/password/all" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/procedure/all" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/task/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/contact/all" page="/" />.</li>
+					<li>Updated version of <core:link book="/password/all" page="/" />.</li>
+					<li>Updated version of <core:link book="/procedure/all" page="/" />.</li>
+					<li>Updated version of <core:link book="/task/all" page="/" />.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
