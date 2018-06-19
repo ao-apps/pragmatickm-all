@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [PragmaticKM](https://pragmatickm.com/) / [All](https://pragmatickm.com/all/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [PragmaticKM](https://github.com/aoindustries/pragmatickm) / [All](https://github.com/aoindustries/pragmatickm-all)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-current-stable">
 		<img src="https://pragmatickm.com/ao-badges/project-current-stable.svg" alt="project: current stable" />
@@ -24,7 +24,7 @@
 	</a>
 </p>
 
-Convenience POM to include most [PragmaticKM](https://pragmatickm.com/) features, not including documentation or examples.
+Convenience POM to include most [PragmaticKM](https://github.com/aoindustries/pragmatickm) features, not including documentation or examples.
 
 ## Project Links
 * [Project Home](https://pragmatickm.com/all/)
@@ -33,10 +33,10 @@ Convenience POM to include most [PragmaticKM](https://pragmatickm.com/) features
 * [GitHub](https://github.com/aoindustries/pragmatickm-all)
 
 ## Modules Included
-* [PragmaticKM Contact All](https://pragmatickm.com/contact/all/)
-* [PragmaticKM Password All](https://pragmatickm.com/password/all/)
-* [PragmaticKM Procedure All](https://pragmatickm.com/procedure/all/)
-* [PragmaticKM Task All](https://pragmatickm.com/task/all/)
+* [PragmaticKM Contact All](https://github.com/aoindustries/pragmatickm-contact-all)
+* [PragmaticKM Password All](https://github.com/aoindustries/pragmatickm-password-all)
+* [PragmaticKM Procedure All](https://github.com/aoindustries/pragmatickm-procedure-all)
+* [PragmaticKM Task All](https://github.com/aoindustries/pragmatickm-task-all)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
