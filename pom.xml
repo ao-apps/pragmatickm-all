@@ -47,7 +47,7 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 
 	<dependencies>
 		<dependency>
-			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId><version>1.2.5-SNAPSHOT</version>
+			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId><version>1.2.5-validation-SNAPSHOT</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
