@@ -32,7 +32,7 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-all</artifactId><version>1.2.5-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>PragmaticKM 1 All</name>
+	<name>PragmaticKM All</name>
 	<url>https://pragmatickm.com/all/</url>
 	<description>Convenience POM to include most PragmaticKM features, not including documentation or examples.</description>
 	<inceptionYear>2016</inceptionYear>
