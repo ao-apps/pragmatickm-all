@@ -32,7 +32,7 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-all</artifactId><version>2.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>PragmaticKM 2 All</name>
+	<name>PragmaticKM All²</name>
 	<url>https://pragmatickm.com/all/</url>
 	<description>Convenience POM to include most PragmaticKM features, not including documentation or examples.</description>
 	<inceptionYear>2016</inceptionYear>
@@ -45,21 +45,47 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 		<tag>HEAD</tag>
 	</scm>
 
+	<dependencyManagement>
+		<!-- TODO: pragmatickm-bom -->
+		<dependencies>
+			<dependency>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId><version>2.0.0-SNAPSHOT</version>
+				<type>pom</type>
+			</dependency>
+			<!-- TODO: pragmatickm-contact-bom -->
+			<dependency>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-all</artifactId><version>2.0.0-SNAPSHOT</version>
+				<type>pom</type>
+			</dependency>
+			<!-- TODO: pragmatickm-password-bom -->
+			<dependency>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-all</artifactId><version>2.0.0-SNAPSHOT</version>
+				<type>pom</type>
+			</dependency>
+			<!-- TODO: pragmatickm-procedure-bom -->
+			<dependency>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId><version>2.0.0-SNAPSHOT</version>
+				<type>pom</type>
+			</dependency>
+			<!-- TODO: pragmatickm-task-bom -->
+		</dependencies>
+	</dependencyManagement>
+
 	<dependencies>
 		<dependency>
-			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId><version>2.0.0-SNAPSHOT</version>
+			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId>
 			<type>pom</type>
 		</dependency>
 		<dependency>
-			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-all</artifactId><version>2.0.0-SNAPSHOT</version>
+			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-all</artifactId>
 			<type>pom</type>
 		</dependency>
 		<dependency>
-			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-all</artifactId><version>2.0.0-SNAPSHOT</version>
+			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-all</artifactId>
 			<type>pom</type>
 		</dependency>
 		<dependency>
-			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId><version>2.0.0-SNAPSHOT</version>
+			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId>
 			<type>pom</type>
 		</dependency>
 	</dependencies>
