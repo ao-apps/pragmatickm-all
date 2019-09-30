@@ -36,7 +36,7 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2017-07-25T09:13:13-0500"
-		dateModified="2019-07-22T20:58:20-0500"
+		dateModified="2019-09-30T10:42:44-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.pragmatickm:pragmatickm-all:pom.version}" />
@@ -53,7 +53,10 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 				scmUrl="@{documented.scm.url}"
 			>
 				<ul>
-					<li>Rebuild for breaking change in <code>CalendarUtils</code>.</li>
+					<li>Updated version of <core:link book="/contact/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/password/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/procedure/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/task/all" page="/index.jspx" />.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
