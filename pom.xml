@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 pragmatickm-all - Convenience POM to include most PragmaticKM features, not including documentation or examples.
-Copyright (C) 2016, 2017, 2018, 2019  AO Industries, Inc.
+Copyright (C) 2016, 2017, 2018, 2019, 2020  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -55,15 +55,15 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId><version>1.3.0-POST-SNAPSHOT</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId><version>1.4.0-SNAPSHOT</version>
 				<type>pom</type>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-all</artifactId><version>1.4.0-POST-SNAPSHOT</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-all</artifactId><version>1.5.0-SNAPSHOT</version>
 				<type>pom</type>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-all</artifactId><version>1.4.0-POST-SNAPSHOT</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-all</artifactId><version>1.5.0-SNAPSHOT</version>
 				<type>pom</type>
 			</dependency>
 			<dependency>

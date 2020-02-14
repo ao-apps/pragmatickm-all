@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 pragmatickm-all - Convenience POM to include most PragmaticKM features, not including documentation or examples.
-Copyright (C) 2017, 2019  AO Industries, Inc.
+Copyright (C) 2017, 2019, 2020  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -36,7 +36,7 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2017-07-25T09:13:13-0500"
-		dateModified="2019-11-02T16:41:06-0500"
+		dateModified="2020-02-14T00:51:04-0600"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.pragmatickm:pragmatickm-all:pom.version}" />
@@ -54,6 +54,9 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 			>
 				<ul>
 					<li>Minimum Java version changed from 1.7 to 1.8.</li>
+					<li>Updated version of <core:link book="/contact/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/password/all" page="/index.jspx" />.</li>
+					<li>Updated version of <core:link book="/procedure/all" page="/index.jspx" />.</li>
 					<li>Updated version of <core:link book="/task/all" page="/index.jspx" />.</li>
 				</ul>
 			</changelog:release>
