@@ -25,11 +25,11 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-parent</artifactId><version>1.6.0-POST-SNAPSHOT</version>
+		<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-parent</artifactId><version>1.6.0<!-- -POST-SNAPSHOT --></version>
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-all</artifactId><version>1.5.0-POST-SNAPSHOT</version>
+	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-all</artifactId><version>1.5.0<!-- -POST-SNAPSHOT --></version>
 	<packaging>pom</packaging>
 
 	<name>PragmaticKM All</name>
@@ -52,19 +52,19 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId><version>1.4.0${POST-SNAPSHOT}</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId><version>1.4.0<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-all</artifactId><version>1.5.0${POST-SNAPSHOT}</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-all</artifactId><version>1.5.0<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-all</artifactId><version>1.5.0${POST-SNAPSHOT}</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-all</artifactId><version>1.5.0<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId><version>1.5.0${POST-SNAPSHOT}</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId><version>1.5.0<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 			</dependency>
 		</dependencies>
