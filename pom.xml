@@ -144,7 +144,7 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-servlet</artifactId><version>1.7.0${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-taglib</artifactId><version>1.7.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-taglib</artifactId><version>1.7.0${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-model</artifactId><version>1.4.1${POST-SNAPSHOT}</version>
