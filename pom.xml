@@ -233,7 +233,7 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 			</dependency>
 			<!-- Non-classpath Direct -->
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId><version>1.4.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId><version>1.4.1${POST-SNAPSHOT}</version>
 				<type>pom</type>
 			</dependency>
 			<dependency>
