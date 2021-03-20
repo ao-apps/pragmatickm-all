@@ -245,7 +245,7 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 				<type>pom</type>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId><version>1.6.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId><version>1.6.1${POST-SNAPSHOT}</version>
 				<type>pom</type>
 			</dependency>
 			<!-- BOM -->
