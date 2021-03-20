@@ -237,7 +237,7 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 				<type>pom</type>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-all</artifactId><version>1.5.2-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-all</artifactId><version>1.5.2${POST-SNAPSHOT}</version>
 				<type>pom</type>
 			</dependency>
 			<dependency>
