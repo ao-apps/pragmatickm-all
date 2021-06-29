@@ -30,7 +30,11 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 	</parent>
 
 	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-all</artifactId><version>1.6.0-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>bundle</packaging>
+
+	<properties>
+		<module.name>com.pragmatickm.all</module.name>
+	</properties>
 
 	<name>PragmaticKM All</name>
 	<url>https://pragmatickm.com/all/</url>
@@ -72,8 +76,37 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 		<url>https://github.com/aoindustries/pragmatickm-all/issues</url>
 	</issueManagement>
 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
+				<configuration>
+					<usedDependencies>
+						<!-- Direct -->
+						<dependency>com.pragmatickm:pragmatickm-password-all</dependency><!-- Required for module-info.java -->
+						<dependency>com.pragmatickm:pragmatickm-procedure-all</dependency><!-- Required for module-info.java -->
+						<dependency>com.pragmatickm:pragmatickm-task-all</dependency><!-- Required for module-info.java -->
+					</usedDependencies>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 	<dependencyManagement>
 		<dependencies>
+			<!-- Direct -->
+			<dependency>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId><version>1.5.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
+			<dependency>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-all</artifactId><version>1.6.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
+			<dependency>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-all</artifactId><version>1.6.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
+			<dependency>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId><version>1.7.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
 			<!-- Transitive -->
 			<dependency>
 				<groupId>com.aoapps</groupId><artifactId>ao-collections</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
@@ -231,23 +264,6 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-view</artifactId><version>1.6.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<!-- javaee-web-api-bom: <groupId>org.apache.taglibs</groupId><artifactId>taglibs-standard-impl</artifactId> -->
-			<!-- Non-classpath Direct -->
-			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId><version>1.5.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
-				<type>pom</type>
-			</dependency>
-			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-all</artifactId><version>1.6.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
-				<type>pom</type>
-			</dependency>
-			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-all</artifactId><version>1.6.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
-				<type>pom</type>
-			</dependency>
-			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId><version>1.7.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
-				<type>pom</type>
-			</dependency>
 			<!-- BOM -->
 			<dependency>
 				<groupId>com.aoapps</groupId><artifactId>javaee-web-api-bom</artifactId><version>7.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
@@ -258,22 +274,18 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 	</dependencyManagement>
 
 	<dependencies>
-		<!-- Non-classpath Direct -->
+		<!-- Direct -->
 		<dependency>
 			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId>
-			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-all</artifactId>
-			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-all</artifactId>
-			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId>
-			<type>pom</type>
 		</dependency>
 	</dependencies>
 </project>
