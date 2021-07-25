@@ -47,17 +47,26 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 				artifactId="@{documented.artifactId}"
 				repository="@{nexusUrl}content/repositories/snapshots/"
 				scmUrl="@{project.scm.url}"
-			>
-				<ul>
-					<li>Updated to <ao:a rel="nofollow" href="https://www.oracle.com/java/technologies/javaee/javaeetechnologies.html#javaee7">Java™ EE 7 Web Profile</ao:a> (Servlet 3.1, JSP 2.3, EL 3.0, and JSTL 1.2).</li>
-					<li>Minimum Java version changed from 1.8 to 11.</li>
-					<li>
-						Now supports Java 9+ modules with included <code>module-info.class</code>. This project is an
-						aggregator module by using <code>requires transitive</code> for all included projects.
-					</li>
-				</ul>
-			</changelog:release>
+			/>
 		</c:if>
+
+		<changelog:release
+			projectName="@{documented.name}"
+			version="1.6.0"
+			datePublished="2021-07-25T09:37:23-05:00"
+			groupId="@{project.groupId}"
+			artifactId="@{documented.artifactId}"
+			scmUrl="@{project.scm.url}"
+		>
+			<ul>
+				<li>Updated to <ao:a rel="nofollow" href="https://www.oracle.com/java/technologies/javaee/javaeetechnologies.html#javaee7">Java™ EE 7 Web Profile</ao:a> (Servlet 3.1, JSP 2.3, EL 3.0, and JSTL 1.2).</li>
+				<li>Minimum Java version changed from 1.8 to 11.</li>
+				<li>
+					Now supports Java 9+ modules with included <code>module-info.class</code>. This project is an
+					aggregator module by using <code>requires transitive</code> for all included projects.
+				</li>
+			</ul>
+		</changelog:release>
 
 		<changelog:release
 			projectName="@{documented.name}"
