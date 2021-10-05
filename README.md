@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [PragmaticKM](https://github.com/aoindustries/pragmatickm) / [All](https://github.com/aoindustries/pragmatickm-all)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/ao-apps) [PragmaticKM](https://github.com/ao-apps/pragmatickm) / [All](https://github.com/ao-apps/pragmatickm-all)
 
 [![project: current stable](https://pragmatickm.com/ao-badges/project-current-stable.svg)](https://aoindustries.com/life-cycle#project-current-stable)
 [![management: production](https://pragmatickm.com/ao-badges/management-production.svg)](https://aoindustries.com/life-cycle#management-production)
@@ -8,7 +8,7 @@
 [![semantic versioning: 2.0.0](https://pragmatickm.com/ao-badges/semver-2.0.0.svg)](http://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://pragmatickm.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-[![Build](https://github.com/aoindustries/pragmatickm-all/workflows/Build/badge.svg?branch=1.x)](https://github.com/aoindustries/pragmatickm-all/actions?query=workflow%3ABuild)
+[![Build](https://github.com/ao-apps/pragmatickm-all/workflows/Build/badge.svg?branch=1.x)](https://github.com/ao-apps/pragmatickm-all/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.pragmatickm/pragmatickm-all/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.pragmatickm/pragmatickm-all)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.pragmatickm%3Apragmatickm-all&metric=alert_status)](https://sonarcloud.io/dashboard?branch=1.x&id=com.pragmatickm%3Apragmatickm-all)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.pragmatickm%3Apragmatickm-all&metric=ncloc)](https://sonarcloud.io/component_measures?branch=1.x&id=com.pragmatickm%3Apragmatickm-all&metric=ncloc)  
@@ -16,19 +16,19 @@
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.pragmatickm%3Apragmatickm-all&metric=security_rating)](https://sonarcloud.io/component_measures?branch=1.x&id=com.pragmatickm%3Apragmatickm-all&metric=Security)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.pragmatickm%3Apragmatickm-all&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=1.x&id=com.pragmatickm%3Apragmatickm-all&metric=Maintainability)
 
-Convenience POM to include most [PragmaticKM](https://github.com/aoindustries/pragmatickm) features, not including documentation or examples.
+Convenience POM to include most [PragmaticKM](https://github.com/ao-apps/pragmatickm) features, not including documentation or examples.
 
 ## Project Links
 * [Project Home](https://pragmatickm.com/all/)
 * [Changelog](https://pragmatickm.com/all/changelog)
 * [Maven Central Repository](https://search.maven.org/artifact/com.pragmatickm/pragmatickm-all)
-* [GitHub](https://github.com/aoindustries/pragmatickm-all)
+* [GitHub](https://github.com/ao-apps/pragmatickm-all)
 
 ## Modules Included
-* [PragmaticKM Contact All](https://github.com/aoindustries/pragmatickm-contact-all)
-* [PragmaticKM Password All](https://github.com/aoindustries/pragmatickm-password-all)
-* [PragmaticKM Procedure All](https://github.com/aoindustries/pragmatickm-procedure-all)
-* [PragmaticKM Task All](https://github.com/aoindustries/pragmatickm-task-all)
+* [PragmaticKM Contact All](https://github.com/ao-apps/pragmatickm-contact-all)
+* [PragmaticKM Password All](https://github.com/ao-apps/pragmatickm-password-all)
+* [PragmaticKM Procedure All](https://github.com/ao-apps/pragmatickm-procedure-all)
+* [PragmaticKM Task All](https://github.com/ao-apps/pragmatickm-task-all)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
