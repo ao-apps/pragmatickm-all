@@ -29,7 +29,7 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-all</artifactId><version>1.6.1</version>
+	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-all</artifactId><version>1.6.1-POST-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<properties>
@@ -72,7 +72,7 @@ along with pragmatickm-all.  If not, see <http://www.gnu.org/licenses />.
 		<connection>scm:git:git://github.com/ao-apps/pragmatickm-all.git</connection>
 		<developerConnection>scm:git:git@github.com:ao-apps/pragmatickm-all.git</developerConnection>
 		<url>https://github.com/ao-apps/pragmatickm-all</url>
-		<tag>pragmatickm-all-1.6.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
