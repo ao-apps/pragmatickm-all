@@ -29,7 +29,7 @@ along with pragmatickm-all.  If not, see <https://www.gnu.org/licenses/>.
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-all</artifactId><version>1.6.2-POST-SNAPSHOT</version>
+	<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-all</artifactId><version>1.6.3-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<properties>
@@ -126,16 +126,16 @@ along with pragmatickm-all.  If not, see <https://www.gnu.org/licenses/>.
 		<dependencies>
 			<!-- Direct -->
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId><version>1.5.1${POST-SNAPSHOT}</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId><version>1.5.2-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-all</artifactId><version>1.6.1${POST-SNAPSHOT}</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-all</artifactId><version>1.6.2-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-all</artifactId><version>1.6.0${POST-SNAPSHOT}</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-all</artifactId><version>1.6.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId><version>1.7.2${POST-SNAPSHOT}</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId><version>1.7.3-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<!-- Transitive -->
 			<dependency>
@@ -226,7 +226,7 @@ along with pragmatickm-all.  If not, see <https://www.gnu.org/licenses/>.
 				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-model</artifactId><version>1.6.1${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-servlet</artifactId><version>1.6.0${POST-SNAPSHOT}</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-servlet</artifactId><version>1.6.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
 				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-taglib</artifactId><version>1.6.0${POST-SNAPSHOT}</version>
@@ -235,7 +235,7 @@ along with pragmatickm-all.  If not, see <https://www.gnu.org/licenses/>.
 				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-model</artifactId><version>1.5.1${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-servlet</artifactId><version>1.8.0${POST-SNAPSHOT}</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-servlet</artifactId><version>1.8.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
 				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-taglib</artifactId><version>1.8.0${POST-SNAPSHOT}</version>
@@ -244,7 +244,7 @@ along with pragmatickm-all.  If not, see <https://www.gnu.org/licenses/>.
 				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-model</artifactId><version>1.5.0${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-servlet</artifactId><version>1.6.0${POST-SNAPSHOT}</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-servlet</artifactId><version>1.6.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
 				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-taglib</artifactId><version>1.7.0${POST-SNAPSHOT}</version>
@@ -253,7 +253,7 @@ along with pragmatickm-all.  If not, see <https://www.gnu.org/licenses/>.
 				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-model</artifactId><version>1.6.2${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-servlet</artifactId><version>1.7.1${POST-SNAPSHOT}</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-servlet</artifactId><version>1.7.2-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
 				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-taglib</artifactId><version>1.8.0${POST-SNAPSHOT}</version>
@@ -262,7 +262,7 @@ along with pragmatickm-all.  If not, see <https://www.gnu.org/licenses/>.
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-core-model</artifactId><version>1.14.1${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-core-servlet</artifactId><version>1.18.2${POST-SNAPSHOT}</version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-core-servlet</artifactId><version>1.18.3-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-core-taglib</artifactId><version>1.15.2${POST-SNAPSHOT}</version>
@@ -288,7 +288,7 @@ along with pragmatickm-all.  If not, see <https://www.gnu.org/licenses/>.
 				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-style</artifactId><version>1.5.0${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-view</artifactId><version>1.5.0${POST-SNAPSHOT}</version>
+				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-view</artifactId><version>1.5.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
 				<groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-style</artifactId><version>1.5.0${POST-SNAPSHOT}</version>
