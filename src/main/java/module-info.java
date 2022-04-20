@@ -1,6 +1,6 @@
 /*
  * pragmatickm-all - Convenience POM to include most PragmaticKM features, not including documentation or examples.
- * Copyright (C) 2021  AO Industries, Inc.
+ * Copyright (C) 2021, 2022  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -21,9 +21,9 @@
  * along with pragmatickm-all.  If not, see <https://www.gnu.org/licenses/>.
  */
 module com.pragmatickm.all {
-	// Direct
-	requires transitive com.pragmatickm.contact.all; // <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId>
-	requires transitive com.pragmatickm.password.all; // <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-all</artifactId>
-	requires transitive com.pragmatickm.procedure.all; // <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-all</artifactId>
-	requires transitive com.pragmatickm.task.all; // <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId>
+  // Direct
+  requires transitive com.pragmatickm.contact.all; // <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId>
+  requires transitive com.pragmatickm.password.all; // <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-all</artifactId>
+  requires transitive com.pragmatickm.procedure.all; // <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-all</artifactId>
+  requires transitive com.pragmatickm.task.all; // <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId>
 }
