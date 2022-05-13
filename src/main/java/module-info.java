@@ -26,4 +26,4 @@ module com.pragmatickm.all {
   requires transitive com.pragmatickm.password.all; // <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-all</artifactId>
   requires transitive com.pragmatickm.procedure.all; // <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-all</artifactId>
   requires transitive com.pragmatickm.task.all; // <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId>
-} // TODO: Avoiding rewrite-maven-plugin-4.22.2 truncation
+}
