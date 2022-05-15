@@ -126,7 +126,7 @@ along with pragmatickm-all.  If not, see <https://www.gnu.org/licenses/>.
     <dependencies>
       <!-- Direct -->
       <dependency>
-        <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId><version>1.5.2-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-all</artifactId><version>1.5.2${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
         <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-password-all</artifactId><version>1.6.2-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
