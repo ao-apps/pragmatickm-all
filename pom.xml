@@ -135,7 +135,7 @@ along with pragmatickm-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-procedure-all</artifactId><version>1.6.1${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId><version>1.7.3-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-task-all</artifactId><version>1.7.3${POST-SNAPSHOT}</version>
       </dependency>
       <!-- Transitive -->
       <dependency>
