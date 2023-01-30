@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 pragmatickm-all - Convenience POM to include most PragmaticKM features, not including documentation or examples.
-Copyright (C) 2016, 2017, 2018, 2019, 2020, 2021, 2022  AO Industries, Inc.
+Copyright (C) 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -112,10 +112,11 @@ along with pragmatickm-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
         <configuration>
           <usedDependencies>
-            <!-- Direct -->
-            <dependency>com.pragmatickm:pragmatickm-password-all</dependency><!-- Required for module-info.java -->
-            <dependency>com.pragmatickm:pragmatickm-procedure-all</dependency><!-- Required for module-info.java -->
-            <dependency>com.pragmatickm:pragmatickm-task-all</dependency><!-- Required for module-info.java -->
+            <!-- Required for module-info.java -->
+            <dependency>com.pragmatickm:pragmatickm-contact-all</dependency>
+            <dependency>com.pragmatickm:pragmatickm-password-all</dependency>
+            <dependency>com.pragmatickm:pragmatickm-procedure-all</dependency>
+            <dependency>com.pragmatickm:pragmatickm-task-all</dependency>
           </usedDependencies>
         </configuration>
       </plugin>
