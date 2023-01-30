@@ -112,10 +112,11 @@ along with pragmatickm-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
         <configuration>
           <usedDependencies>
-            <!-- Direct -->
-            <dependency>com.pragmatickm:pragmatickm-password-all</dependency><!-- Required for module-info.java -->
-            <dependency>com.pragmatickm:pragmatickm-procedure-all</dependency><!-- Required for module-info.java -->
-            <dependency>com.pragmatickm:pragmatickm-task-all</dependency><!-- Required for module-info.java -->
+            <!-- Required for module-info.java -->
+            <dependency>com.pragmatickm:pragmatickm-contact-all</dependency>
+            <dependency>com.pragmatickm:pragmatickm-password-all</dependency>
+            <dependency>com.pragmatickm:pragmatickm-procedure-all</dependency>
+            <dependency>com.pragmatickm:pragmatickm-task-all</dependency>
           </usedDependencies>
         </configuration>
       </plugin>
