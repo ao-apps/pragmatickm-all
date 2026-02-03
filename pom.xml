@@ -257,7 +257,7 @@ along with pragmatickm-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>joda-time</groupId><artifactId>joda-time</artifactId><version>2.14.0</version>
       </dependency>
       <dependency>
-        <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-model</artifactId><version>1.19.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-model</artifactId><version>1.19.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
         <groupId>com.pragmatickm</groupId><artifactId>pragmatickm-contact-servlet</artifactId><version>1.6.1${POST-SNAPSHOT}</version>
